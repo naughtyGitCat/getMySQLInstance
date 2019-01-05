@@ -25,7 +25,7 @@ namespace MonitorMySQLOpenFaclon.MySQL
                 }
                 if (socket_file == "")
                 {
-                    Console.WriteLine("进程编号:{0}启动参数行没有使用--socket参数");
+                    Console.WriteLine(string.Format("进程编号:{0}启动参数行没有使用--socket参数", pid));
                 }
                 return socket_file;
             }

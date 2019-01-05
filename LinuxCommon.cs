@@ -113,8 +113,6 @@ namespace MonitorMySQLOpenFaclon
                     // 如果打开的文件描述符中的链接对象是一个socket文件，那么进入获取这个文件的innode编号，然后和
                     if (origin_path.StartsWith("socket:[", StringComparison.Ordinal)) //二进制方式比较字符串前缀是否相同
                     {
-                        //Console.WriteLine(origin_path+"l0ve");
-                        // 该进程的/
                         var socket_innode = origin_path.Substring(origin_path.IndexOf('[') + 1, origin_path.IndexOf(']') - origin_path.IndexOf('[') - 1);
                         // var task =  System.IO.File.ReadAllLinesAsync(string.Format("/proc/{0}/net/tcp", pid));
                         var net_tcp = System.IO.File.ReadLines(string.Format("/proc/{0}/net/tcp", pid));
@@ -126,9 +124,9 @@ namespace MonitorMySQLOpenFaclon
                             {
                                 // 16位的IP:PORT
                                 var hex_port_str = (((line.Split(new char[0], StringSplitOptions.RemoveEmptyEntries))[1]).Split(':'))[1];
-                                Console.WriteLine((line.Split(new char[0], StringSplitOptions.RemoveEmptyEntries))[1]);
+                                // Console.WriteLine((line.Split(new char[0], StringSplitOptions.RemoveEmptyEntries))[1]); 打印IP:PORT
                                 int process_port = Convert.ToInt32(hex_port_str, 16);
-                                Console.WriteLine(Convert.ToInt32(hex_port_str, 16));
+                                // Console.WriteLine(Convert.ToInt32(hex_port_str, 16)); 打印端口
                                 port_list.Add(process_port);
                             }
                             // https://stackoverflow.com/questions/6111298/best-way-to-specify-whitespace-in-a-string-split-operation
@@ -140,7 +138,7 @@ namespace MonitorMySQLOpenFaclon
             catch (Exception err)
             {
                 Console.WriteLine(err);
-                Console.WriteLine("未找到PID:{0}监听的端口", pid);
+                Console.WriteLine(string.Format("未找到PID:{0}监听的端口", pid));
             }
 
             return port_list;
@@ -153,7 +151,10 @@ namespace MonitorMySQLOpenFaclon
         {
             get
             {
-                return Common.ReadSymbolicLink(string.Format("/proc/{0}/exe", pid));
+                var raw_exec_path = Common.ReadSymbolicLink(string.Format("/proc/{0}/exe", pid));
+                // 去除可能存在的多个空格
+                var exec_path = raw_exec_path.Split(new char[0], StringSplitOptions.RemoveEmptyEntries)[0];
+                return exec_path;
             }
         }
     }

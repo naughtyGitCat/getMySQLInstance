@@ -1,0 +1,4 @@
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/release/netcoreapp3/centos.7-x64/MonitorMySQLOpenFaclon.csprojAssemblyReference.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/release/netcoreapp3/centos.7-x64/MonitorMySQLOpenFaclon.csproj.CoreCompileInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/release/netcoreapp3/centos.7-x64/MonitorMySQLOpenFaclon.AssemblyInfoInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/release/netcoreapp3/centos.7-x64/MonitorMySQLOpenFaclon.AssemblyInfo.cs

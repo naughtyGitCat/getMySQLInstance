@@ -9,7 +9,7 @@ namespace MonitorMySQLOpenFaclon
         public string user;
         public string password;
         public string socket_path;
-        // public string exec_path;
+        public string exec_path;
         // public string data_path;
     }
 }
