@@ -1,0 +1,10 @@
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.deps.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.runtimeconfig.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.runtimeconfig.dev.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.dll
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.pdb
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.csproj.CoreCompileInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.AssemblyInfoInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.AssemblyInfo.cs
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.dll
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Release/netcoreapp2.2/MonitorMySQLOpenFaclon.pdb

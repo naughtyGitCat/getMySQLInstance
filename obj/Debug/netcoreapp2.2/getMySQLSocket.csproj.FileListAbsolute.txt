@@ -1,0 +1,11 @@
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Debug/netcoreapp2.2/getMySQLSocket.deps.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Debug/netcoreapp2.2/getMySQLSocket.runtimeconfig.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Debug/netcoreapp2.2/getMySQLSocket.runtimeconfig.dev.json
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Debug/netcoreapp2.2/getMySQLSocket.dll
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/bin/Debug/netcoreapp2.2/getMySQLSocket.pdb
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.csprojAssemblyReference.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.csproj.CoreCompileInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.AssemblyInfoInputs.cache
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.AssemblyInfo.cs
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.dll
+/Users/psyduck/Projects/test_conn_mysql/getMySQLSocket/obj/Debug/netcoreapp2.2/getMySQLSocket.pdb
